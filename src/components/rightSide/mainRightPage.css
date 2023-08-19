@@ -1,0 +1,28 @@
+.mainRightBlock {
+  width: 30%;
+  height: 100vh;
+  background-color: rgb(0, 0, 107);
+  font-size: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.time-to-trip {
+  margin-top: 50px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  text-align: center;
+}
+
+.celsiy-c {
+  font-size: 60px;
+}
+
+.d-flex {
+  display: flex;
+}

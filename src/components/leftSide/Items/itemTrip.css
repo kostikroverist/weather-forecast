@@ -1,0 +1,187 @@
+.item-trip {
+  width: 220px;
+  padding: 5px;
+  margin: 25px;
+  box-shadow: 0px 0px 6px -1px #7c7c7c;
+  transition: 1s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item-trip:hover {
+  box-shadow: 0px 0px 6px 3px #7c7c7c;
+}
+.btn-add-trip {
+  padding: 5px;
+  margin: 25px;
+  width: 20%;
+  height: 200px;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  background-color: #e6e6e650;
+}
+
+.btn-add-trip:hover {
+  background-color: #d2d2d292;
+}
+
+.img-trip {
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+}
+.text-container {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55px;
+}
+
+.text-container:hover {
+  border-left-color: rgb(61, 61, 255);
+  border-right-color: rgb(61, 61, 255);
+  border-bottom-color: rgb(61, 61, 255);
+}
+.items-container {
+  margin-left: 10px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3;
+  align-items: center;
+  overflow: auto;
+}
+.scrollable-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.weather-container {
+  width: 80%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-weather {
+  text-align: center;
+  width: 90px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-weather-img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+/* .form-style {
+  width: 390px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.modal-btn-close {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-close {
+  content: "X";
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.6s ease;
+}
+
+.btn-close:hover {
+  transform: rotate(180deg);
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.label-style {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.input-style {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.close-button,
+.submit-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-button {
+  background-color: #ccc;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-form {
+  width: 70px;
+  height: 25px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.save {
+  background-color: rgb(37, 150, 190);
+  color: white;
+}
+
+.input-type-data::-webkit-calendar-picker-indicator {
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  width: 90%;
+  height: 50px;
+  opacity: 0;
+}
+
+.input-type-data::-moz-calendar-picker-indicator {
+  display: none;
+}

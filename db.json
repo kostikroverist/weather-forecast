@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": "1asd",
+      "townName": "London",
+      "img": "https://faktypro.com.ua/uploads/img/25-cikavih-faktiv-pro-london.jpg",
+      "dateStartTrip": "2023-08-18",
+      "dateEndTrip": "2023-08-25"
+    },
+    {
+      "id": "2dsc",
+      "townName": "Berlin",
+      "img": "https://media.istockphoto.com/id/636008560/photo/berlin-cityscape-at-sunset-brandenburg-gate.jpg?s=612x612&w=0&k=20&c=OplR7FIuI7pUQ1Itic0rBH7Rp_d_84BUG_JvXftpUOc=",
+      "dateStartTrip": "2023-08-20",
+      "dateEndTrip": "2023-08-27"
+    },
+    {
+      "id": "3d2a",
+      "townName": "London",
+      "img": "https://image.cnbcfm.com/api/v1/image/106268734-1574876711571gettyimages-1059614218.jpeg?v=1576856860",
+      "dateStartTrip": "2023-08-30",
+      "dateEndTrip": "2023-09-06"
+    }
+  ]
+}

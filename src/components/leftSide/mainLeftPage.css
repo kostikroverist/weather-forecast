@@ -1,0 +1,27 @@
+.main-left-block {
+  width: 70%;
+  height: 100%;
+  padding: 25px;
+}
+
+.search-container {
+  width: 220px;
+  background-color: #d5d5d5;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 39px;
+}
+.search-input {
+  width: 200px;
+  height: 25px;
+  border: none;
+  padding: 5px;
+  background-color: #d5d5d5;
+  outline: none; /* Remove the focus outline */
+}
+
+input:focus {
+  border: none;
+}
