@@ -20,15 +20,13 @@ The project has two main commands for different purposes:
 
 yarn start: This command is used to start the database. It prepares the database environment for the application.
 
-sh
-Copy code
+
 yarn start
 Once the database is running, the application can interact with it.
 
 yarn dev: This command is used to start the application itself. It launches the development server and allows you to view the project in your browser.
 
-sh
-Copy code
+
 yarn dev
 After running this command, you can access the application at http://localhost:5173.
 
